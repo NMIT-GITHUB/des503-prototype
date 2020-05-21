@@ -1,0 +1,31 @@
+.jumbo--bg {
+    box-sizing: border-box;
+    width: 85%;
+    height: 50vh;
+    margin: auto;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1024px-Wikipedia-logo-v2.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed; 
+}
+
+.bg-1 {
+    background-color: #334030;
+}
+
+.bg-2 {
+    background-color: #292E33;
+}
+
+.bg-3 {
+    background-color: #2E4359;
+}
+
+.bg-4 {
+    background-color: #402D3C;
+}
+
+.bg-5 {
+    background-color: #807959;
+}
