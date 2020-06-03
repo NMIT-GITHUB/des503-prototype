@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Wiki2.0</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-2 text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Today</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Random</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Info</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Help</a>
+                        <a class="dropdown-item" href="#">About</a>
+                        <a class="dropdown-item" href="#">Community</a>
+                        <a class="dropdown-item" href="#">Contact</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Portals</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Arts</a>
+                        <a class="dropdown-item" href="#">Biology</a>
+                        <a class="dropdown-item" href="#">History</a>
+                        <a class="dropdown-item" href="#">Maths</a>
+                        <a class="dropdown-item" href="#">Society</a>
+                        <a class="dropdown-item" href="#">All Portals</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Tools</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="editor.html">Editor</a>
+                        <a class="dropdown-item" href="#">Language</a>
+                        <a class="dropdown-item" href="#">Special</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Ali</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-auto">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <svg class="bi bi-person-circle mx-3" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+              </svg>
+              <h4 class="my-auto mr-3">Phillip</h4>
+              <a href="#" class="btn btn-outline-light ">Donate</a>
+        </div>
+        
+    </nav>
+
+    <main role="main py-5">
+
+        <section class="container bg-dark py-5 rounded">
+            <div class="row py-5">
+                <div class="col-md-8 blog-main my-5">
+                    <h2 class="h1">Article Editor Page</h2>
+                    <form class="was-validated">
+                        <div class="mb-3">
+                          <label for="validationTextarea">Enter text below</label>
+                          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                          
+                        </div>
+                      
+                      </form>
+                </div><!-- /.blog-main -->
+                <aside class="col-md-4 blog-sidebar bg-4">
+                    <figure class="p-3 text-center">
+                        <img src="https://via.placeholder.com/350X200/.png" alt="" class="img-thumbnail">
+                        <figcaption>select image</figcaption>
+                    </figure>
+                    <div class="py-2 px-4 mb-3">
+                        <form action="">
+                            <div class="custom-file mb-3">
+                                <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+                              </div>
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                                <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
+                                <div class="invalid-feedback">Example invalid feedback text</div>
+                              </div>
+                            
+                              <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+                                <label class="custom-control-label" for="customControlValidation2">Toggle this custom radio</label>
+                              </div>
+                              <div class="custom-control custom-radio mb-3">
+                                <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+                                <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
+                                <div class="invalid-feedback">More example invalid feedback text</div>
+                              </div>
+                            
+                              <div class="mb-3">
+                                <select class="custom-select" required>
+                                  <option value="">Choose...</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                                <div class="invalid-feedback">Example invalid custom select feedback</div>
+                              </div>
+                            
+                        
+                            
+                              <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+                                  </div>
+                                  <input type="text" class="form-control is-invalid" aria-describedby="validatedInputGroupPrepend" required>
+                                </div>
+                                <div class="invalid-feedback">
+                                  Example invalid input group feedback
+                                </div>
+                              </div>
+                            
+                              <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                  <div class="input-group-prepend">
+                                    <label class="input-group-text" for="validatedInputGroupSelect">Options</label>
+                                  </div>
+                                  <select class="custom-select" id="validatedInputGroupSelect" required>
+                                    <option value="">Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                </div>
+                                <div class="invalid-feedback">
+                                  Example invalid input group feedback
+                                </div>
+                              </div>
+                            
+                              <div class="input-group is-invalid">
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="validatedInputGroupCustomFile" required>
+                                  <label class="custom-file-label" for="validatedInputGroupCustomFile">Choose file...</label>
+                                </div>
+                                <div class="input-group-append">
+                                   <button class="btn btn-outline-secondary" type="button">Button</button>
+                                </div>
+                              </div>
+                              <div class="invalid-feedback">
+                                Example invalid input group feedback
+                              </div>
+                        </form>
+    
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid py-5 bg-3 text-white">
+        <div class="row">
+            <div class="col-12 col-md mb-3 mb-md-0 d-flex justify-content-center align-items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1024px-Wikipedia-logo-v2.svg.png" alt="" class="w-50 m-auto">
+            </div>
+            <div class="col-6 col-md ml-5-md">
+                <h5 class='pt-3'>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-light" href="#">Cool stuff</a></li>
+                    <li><a class="text-light" href="#">Random feature</a></li>
+                    <li><a class="text-light" href="#">Team feature</a></li>
+                    <li><a class="text-light" href="#">Stuff for developers</a></li>
+                    <li><a class="text-light" href="#">Another one</a></li>
+                    <li><a class="text-light" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class='pt-3'>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-light" href="#">Resource</a></li>
+                    <li><a class="text-light" href="#">Resource name</a></li>
+                    <li><a class="text-light" href="#">Another resource</a></li>
+                    <li><a class="text-light" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class='pt-3'>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-light" href="#">Business</a></li>
+                    <li><a class="text-light" href="#">Education</a></li>
+                    <li><a class="text-light" href="#">Government</a></li>
+                    <li><a class="text-light" href="#">Gaming</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class='pt-3'>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- 
+
+
+
+
+
+
+<form class="was-validated">
+    <div class="mb-3">
+      <label for="validationTextarea">Textarea</label>
+      <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+      <div class="invalid-feedback">
+        Please enter a message in the textarea.
+      </div>
+    </div>
+  
+    <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+      <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
+      <div class="invalid-feedback">Example invalid feedback text</div>
+    </div>
+  
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+      <label class="custom-control-label" for="customControlValidation2">Toggle this custom radio</label>
+    </div>
+    <div class="custom-control custom-radio mb-3">
+      <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+      <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
+      <div class="invalid-feedback">More example invalid feedback text</div>
+    </div>
+  
+    <div class="mb-3">
+      <select class="custom-select" required>
+        <option value="">Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <div class="invalid-feedback">Example invalid custom select feedback</div>
+    </div>
+  
+    <div class="custom-file mb-3">
+      <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+      <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+      <div class="invalid-feedback">Example invalid custom file feedback</div>
+    </div>
+  
+    <div class="mb-3">
+      <div class="input-group is-invalid">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control is-invalid" aria-describedby="validatedInputGroupPrepend" required>
+      </div>
+      <div class="invalid-feedback">
+        Example invalid input group feedback
+      </div>
+    </div>
+  
+    <div class="mb-3">
+      <div class="input-group is-invalid">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="validatedInputGroupSelect">Options</label>
+        </div>
+        <select class="custom-select" id="validatedInputGroupSelect" required>
+          <option value="">Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="invalid-feedback">
+        Example invalid input group feedback
+      </div>
+    </div>
+  
+    <div class="input-group is-invalid">
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="validatedInputGroupCustomFile" required>
+        <label class="custom-file-label" for="validatedInputGroupCustomFile">Choose file...</label>
+      </div>
+      <div class="input-group-append">
+         <button class="btn btn-outline-secondary" type="button">Button</button>
+      </div>
+    </div>
+    <div class="invalid-feedback">
+      Example invalid input group feedback
+    </div>
+  </form> -->
